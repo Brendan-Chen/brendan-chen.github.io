@@ -1,153 +1,72 @@
-
-html {
-	margin: 0;
-	padding: 0;
-	}
 body {
-	font: 100% Trattatello, fantasy;
-	line-height: 1.88889;
-	color: #555753;
-	margin: 0;
-	padding: 0;
-}
-p { 
-	margin-top: 0; 
-	text-align: justify;
-	}
-h3 {
-	font: italic normal 1.8em Trattatello, fantasy;
-	letter-spacing: 1px;
-	margin-bottom: 0;
-	color: #7D775C;
-}
-a:link {
-	font-weight: bold;
-	text-decoration: none;
-	color: #0000ff;
-}
-a:visited {
-	font-weight: bold;
-	text-decoration: none;
-	color: #00f2ff;
-}
-a:hover, a:focus, a:active {
-	text-decoration: underline;
-	color: #ff0000;
-}
-abbr {
-	border-bottom: none;
-	}
-
-
-/* specific divs */
-.page-wrapper {
-	background-color: #FFE0DA;
-	padding: 0 175px 0 110px;
-	margin: 0;
+	overflow-x: hidden;
+  }
+  
+  .navbar .nav-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+  }
+  
+  .navbar .nav-item.active {
+	border-left: rgb(179, 179, 179) 2px solid;
+  }
+  /* carousel'in gözükmesi için gerekli */
+  .carousel-item {
+	height: 450px;
+  }
+  
+  #home-heading {
 	position: relative;
-	
-}
-
-.intro { 
-	min-width: 470px;
-	width: 100%;
-	}
-
-header h1 {
-	background: transparent url(https://static.wikia.nocookie.net/powerrangers/images/9/97/Power_Rangers_Dino_Thunder_S12_Logo.png/revision/latest/scale-to-width-down/350?cb=20210313233258) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 350px;
-	height: 224px;
-	float: left;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
-header h2 { 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
-	}
-header {
-	padding-top: 20px;
-	height: 87px;
-}
-
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia; 
+	min-height: 200px;
+	background: url(/img/lights.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	text-align: center;
-	}
-
-.preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
-.supporting {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-	}
-
-footer { 
-	text-align: center; 
-	}
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
-
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-.sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-
-
-.sidebar ul {
-	margin: 0;
-	padding: 0;
-	}
-.sidebar li {
-	line-height: 1.3em; 
-	background-color: gold; 
-	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
-	}
-	.sidebar li a:link {
-		color: #ff00ae;
-	}
-	.sidebar li a:visited {
-		color: #ff0000;
-	}
-	#video-play {
-		position: relative;
-		min-height: 200px;
-		background: url(/img/media.jpg);
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: 0 -300px;
-		text-align: center;
-		color: #fff;
-	  }
-	  
-	  #video-play a {
-		color: #fff;
-	  }
-	  
+	color: #fff;
+  }
+  
+  .dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #video-play {
+	position: relative;
+	min-height: 200px;
+	background: url(/img/media.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 0 -300px;
+	text-align: center;
+	color: #fff;
+  }
+  
+  #video-play a {
+	color: #fff;
+  }
+  
+  #page-header {
+	height: 200px;
+	background: url(/img/image1.jpg);
+	background-position: 0 -300px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #fff;
+	border-bottom: 2px #eee solid;
+	padding-top: 50px;
+  }
+  
+  #faq .card {
+	border: #fff;
+  }
+  
+  #faq a {
+	color: darkred;
+	text-decoration: none;
+  }
